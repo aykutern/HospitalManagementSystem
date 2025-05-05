@@ -107,11 +107,6 @@ namespace HospitalManagementSystem
             ClearFields();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
         private void dataGridView1_SelectionChanged(object sender, EventArgs e)
         {
             if (dataGridView1.SelectedRows.Count > 0)
@@ -140,11 +135,6 @@ namespace HospitalManagementSystem
             cbPatientID.ValueMember = "PatientID";    // Use PatientID as the value
 
 
-
-        }
-
-        private void txtRecordID_TextChanged(object sender, EventArgs e)
-        {
 
         }
     }
